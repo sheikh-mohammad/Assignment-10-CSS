@@ -785,52 +785,17 @@ footer {
 }
 
 
+/* Responsive for Tablets */
 @media (max-width: 1024px) {
   nav, .welcome, .updates, .footer-section {
-    width: 90%;
-    padding: 20px 20px;
-  }
-
-  .food-item {
-    width: 45%;
-  }
-
-  .dish {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
-  .dish-img img {
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .dish-cont, .dish-des {
-    width: 100%;
-    align-items: center;
-    left: 0;
-  }
-
-  .dish-number {
-    justify-content: center;
-  }
-
-  .order-options {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .order-options .option {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 768px) {
   nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
+    gap: 20px;
+    padding: 20px;
   }
 
   .nav-links ul {
@@ -838,54 +803,114 @@ footer {
     gap: 10px;
   }
 
+  .hero {
+    top: 40%;
+    padding-top: 180px;
+  }
+
   .hero h1 {
-    font-size: 32px;
+    font-size: 40px;
+  }
+
+  .welcome-img img,
+  .dish-img img {
+    width: 90%;
+  }
+
+  .dish {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dish-cont,
+  .dish-des {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: static;
+  }
+
+  .food-item {
+    width: 45%;
+  }
+
+  .order-options {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .option {
+    width: 80%;
+  }
+}
+
+/* Responsive for Mobile Phones */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 8px;
   }
 
   .hero {
-    padding-top: 150px;
-    top: 45%;
+    top: 50%;
+    padding-top: 100px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    padding: 0 20px;
+    text-align: center;
   }
 
   .welcome {
     flex-direction: column;
-    text-align: center;
-  }
-
-  .welcome-img img {
-    width: 100%;
-    max-width: 320px;
+    padding: 20px;
   }
 
   .welcome-cont {
     margin-left: 0;
+    padding: 10px;
+  }
+
+  .dish {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .dish-img img {
+    width: 100%;
+  }
+
+  .dish-cont {
+    padding: 10px;
   }
 
   .food-item {
     width: 100%;
   }
 
-  .food-item-section-head {
-    width: 90%;
-    left: 0;
-    text-align: center;
-  }
-
   .banner {
-    padding: 60px 20px;
-    text-align: center;
+    padding: 30px 20px;
   }
 
   .banner-cont h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .banner-cont h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .updates {
     flex-direction: column;
+    gap: 20px;
   }
 
   .update {
@@ -894,16 +919,21 @@ footer {
 
   .footer-section {
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+    padding: 20px;
   }
 
-  .about, .contact, .hours {
+  .about,
+  .contact,
+  .hours {
     width: 100%;
+    text-align: center;
   }
 
   .footer-bar {
     flex-direction: column;
     gap: 10px;
-    text-align: center;
+    padding: 10px;
+    font-size: 12px;
   }
 }
