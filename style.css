@@ -783,3 +783,127 @@ footer {
 .social a{
     color: white;
 }
+
+
+@media (max-width: 1024px) {
+  nav, .welcome, .updates, .footer-section {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  .food-item {
+    width: 45%;
+  }
+
+  .dish {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dish-img img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .dish-cont, .dish-des {
+    width: 100%;
+    align-items: center;
+    left: 0;
+  }
+
+  .dish-number {
+    justify-content: center;
+  }
+
+  .order-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .order-options .option {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero {
+    padding-top: 150px;
+    top: 45%;
+  }
+
+  .welcome {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .welcome-img img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .welcome-cont {
+    margin-left: 0;
+  }
+
+  .food-item {
+    width: 100%;
+  }
+
+  .food-item-section-head {
+    width: 90%;
+    left: 0;
+    text-align: center;
+  }
+
+  .banner {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .banner-cont h1 {
+    font-size: 28px;
+  }
+
+  .banner-cont h2 {
+    font-size: 18px;
+  }
+
+  .updates {
+    flex-direction: column;
+  }
+
+  .update {
+    width: 100%;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about, .contact, .hours {
+    width: 100%;
+  }
+
+  .footer-bar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
