@@ -3,7 +3,7 @@
 A modern, responsive landing page for a restaurant/food brand, built using HTML and CSS. The project demonstrates clean UI design, responsive layouts, and organized asset management.
 
 ### Live Demo
-Add your live link here if deployed: `[Foodfun Live Demo](https://sheikh-mohammad.github.io/Assignment-10-CSS/)`
+Add your live link here if deployed: [Foodfun Live Demo](https://sheikh-mohammad.github.io/Assignment-10-CSS/)
 
 ### Features
 - **Responsive Layout** — fluid typography, stacked layouts for tablet/phone
@@ -78,5 +78,6 @@ mv index.html style.css assets docs/
 git add . && git commit -m "chore: move site to docs for Pages"
 git push
 ```
+
 
 
